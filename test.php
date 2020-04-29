@@ -17,8 +17,6 @@ $out = $Tierrank . " " . $Points;
 
 $fp = fopen('info.txt', 'w');
 fwrite($fp, $out);
-fwrite($fp, $Tierrank);
-fwrite($fp, $Points);
 fclose($fp);
 echo $Tierrank;
 echo $Points;
